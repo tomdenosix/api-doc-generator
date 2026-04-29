@@ -31,4 +31,18 @@ public class AdderTest
         // Assert
         actualResult.Should().Be(expectedResult,$"{first} - {second} is {expectedResult}");
     }
+
+    [Fact]
+    public void AddingNegativeIntegerToPositiveIntegerReturnsCorrectResult()
+    {
+        // Arrange
+        int expectedResult = 3, first = -2, second = 5;
+        Adder adder = new Adder();
+        
+        // Act
+        var actualResult = adder.Add(first, second);
+        
+        // Assert
+        actualResult.Should().Be(expectedResult,$"{first} + {second} is {expectedResult}");
+    }
 }
