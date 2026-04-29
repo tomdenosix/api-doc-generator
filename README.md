@@ -23,4 +23,4 @@ File.WriteAllText("api-docs.html", html);
 ```
 
 ## License
-MIT
+[MIT](LICENSE)
