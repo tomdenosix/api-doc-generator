@@ -36,7 +36,7 @@ public class AdderTest
     public void AddingNegativeIntegerToPositiveIntegerReturnsCorrectResult()
     {
         // Arrange
-        int expectedResult = 6, first = -2, second = 5;
+        int expectedResult = 3, first = -2, second = 5;
         Adder adder = new Adder();
         
         // Act
