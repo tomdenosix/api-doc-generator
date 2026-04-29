@@ -1,4 +1,5 @@
-[![.NET CI](https://github.com/tomdenosix/api-doc-generator/actions/workflows/CI.yml/badge.svg)](https://github.com/tomdenosix/api-doc-generator/actions/workflows/CI.yml)  
+[![.NET CI](https://github.com/tomdenosix/api-doc-generator/actions/workflows/CI.yml/badge.svg)](https://github.com/tomdenosix/api-doc-generator/actions/workflows/CI.yml)
+[![CodeQL](https://github.com/tomdenosix/api-doc-generator/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/tomdenosix/api-doc-generator/actions/workflows/github-code-scanning/codeql)  
 # API Doc Generator
 
 API Doc Generator is a .NET 10 library that converts OpenAPI.NET specifications 
