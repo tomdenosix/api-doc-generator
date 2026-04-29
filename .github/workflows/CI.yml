@@ -26,7 +26,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal --collect:"XPlat Code Coverage" --logger "xunit;LogFileName=test_results.xml"
+      run: dotnet test --no-build --verbosity normal --collect:"XPlat Code Coverage" --logger "junit;LogFileName=test_results.xml"
     - name: Upload test results to Codecov
       if: ${{ !cancelled() }}
       uses: codecov/codecov-action@v5
