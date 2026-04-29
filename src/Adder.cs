@@ -13,7 +13,7 @@ public class Adder
     /// <returns>an integer equal to the sum of the first and second integer</returns>
     public int Add(int a, int b)
     {
-        return 4;
+        return a + b;
     }
 
 }
